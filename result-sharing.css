@@ -1,0 +1,14 @@
+.result-share-label{border:0;background:transparent;color:#204e3e;font:700 1rem var(--body,sans-serif);min-height:44px;padding:8px 12px;cursor:pointer}
+.warm-results .results-share{width:100%;min-height:56px;border:2px solid #285e49;border-radius:20px;color:#204e3e;font-size:1.125rem;background:#e8f2e3}
+.share-privacy{margin:0;text-align:center;color:#61716a;font-size:.875rem;line-height:1.5}
+.share-fallback{background:#fffef9;border:1px solid #dce6d8;color:#204e3e}
+.share-fallback h2{font-size:1.25rem;margin:0 0 10px}.share-fallback p{font-size:1rem;line-height:1.5}
+.share-destinations{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}.share-destinations a{padding:12px 16px;border-radius:14px;background:#e8f2e3;color:#204e3e;font-weight:700;text-decoration:none;min-height:44px}
+.share-fallback label{display:block;font-size:.875rem;font-weight:700;margin-bottom:8px}.share-fallback textarea{display:block;width:100%;max-width:100%;padding:12px;border:1px solid #a9b9ae;border-radius:12px;font:1rem/1.5 var(--body,sans-serif);resize:vertical;color:#204e3e;background:white}
+.share-copy-actions,.shared-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:14px}.share-feedback{margin-bottom:0}
+.shared-results{padding:20px 12px}.shared-cards{display:grid;gap:18px}.shared-profile{padding:18px;background:#fffef9;border-radius:24px;min-width:0;overflow-wrap:anywhere}
+.shared-profile h2{font:800 clamp(22px,5vw,30px)/1.2 var(--display);margin:0 0 8px}.shared-profile p{font-size:1rem;line-height:1.6}
+.shared-profile .snapshot-score{color:#285e49;font-weight:700;margin:0 0 14px}.warm-results .shared-profile .breed-photo{aspect-ratio:auto;overflow:visible;background:transparent}
+.warm-results .shared-profile .breed-photo img{position:static;height:240px;width:100%;padding:8px;object-fit:contain;background:white;border-radius:18px}
+.shared-profile figcaption{font-size:.75rem;line-height:1.5;color:#61716a;margin-top:8px;overflow-wrap:anywhere}.shared-profile figcaption a{color:inherit}
+.shared-actions>button{flex:1;min-height:52px}.share-fallback button:focus-visible,.share-fallback a:focus-visible,.share-fallback textarea:focus-visible,.result-share-label:focus-visible{outline:3px solid #285e49;outline-offset:3px}
