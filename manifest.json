@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "short_name": "Pawday",
+  "name": "Pawday — Smart Dog Breed Finder",
+  "description": "Find your ideal dog breed in 2 minutes based on your lifestyle.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBF8F3",
+  "theme_color": "#FF7A30",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
