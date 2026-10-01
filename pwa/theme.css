@@ -1,0 +1,38 @@
+:root{font-family:Manrope,'Noto Sans SC','PingFang SC','Microsoft YaHei',Arial,sans-serif;--display:Nunito,Manrope,'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif;--bg:#fff9ef;--ink:#123b32;--accent:#285e49;--yellow:#ff862f}
+html[lang="zh-Hans"]{font-family:'Noto Sans SC','PingFang SC','Microsoft YaHei',Manrope,sans-serif;--display:'Noto Sans SC','PingFang SC','Microsoft YaHei',Nunito,sans-serif}
+html[lang="zh-Hans"] h1,html[lang="zh-Hans"] h2,html[lang="zh-Hans"] h3{letter-spacing:0;line-height:1.35}
+.playful-start,.primary:not(:disabled){color:#123b32}
+.playful-start:hover,.primary:not(:disabled):hover{background:#ff9a4d;color:#123b32}
+button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #285e49;outline-offset:4px}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/* Compact multilingual landing page; quiz and matching stay unchanged. */
+body>header{max-width:1180px;padding:20px 28px 0}
+main#app{max-width:1180px;padding:0 28px 40px}
+.playful-home{max-width:none;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.12fr);gap:48px;align-items:center;padding-top:28px}
+.pawday-hero-copy{min-width:0;padding:12px 0}
+.playful-heading{text-align:left;margin:0;max-width:490px}
+.playful-heading h1{font-size:clamp(36px,4.5vw,56px);line-height:1.08;margin:20px 0 18px;letter-spacing:-1px}
+.playful-heading p{font-size:18px;line-height:1.65;max-width:460px}
+.playful-start{margin:26px 0 0;max-width:380px;min-height:60px;font-size:22px;border-radius:18px}
+.playful-meta,.playful-family{text-align:left;font-size:14px}
+.playful-meta{margin-top:19px;font-weight:700}.playful-family{max-width:370px;font-size:12px}
+.pawday-hero-visual{min-width:0}.playful-scene{height:270px;margin:0;border-radius:26px 26px 0 0;max-width:none}.home-pet{height:245px;width:245px;margin-left:-122.5px}
+.playful-controls{margin:0;max-width:none;padding:18px 20px;border-radius:0 0 26px 26px;border:0;box-shadow:none}
+.playful-controls h2{font-size:21px;margin:0 0 5px}.pawday-control-note{margin:0 0 13px;color:#52665a;font-size:12px;line-height:1.5}
+.place-options{gap:8px}.place-option{min-height:72px;padding:8px 4px;gap:3px;font-size:14px;border-radius:15px}.place-icon{font-size:27px}.place-check{width:17px;height:17px;font-size:12px;top:4px;right:4px}
+.rhythm-heading{margin-top:13px}.rhythm-heading label{font-size:17px}.rhythm-heading output{font-size:12px}.rhythm-track{margin-top:3px}.rhythm-track input{height:9px}
+.pawday-result-preview{display:grid;grid-template-columns:1fr 1.12fr;gap:48px;margin:64px auto 0;padding:36px 0;border-top:1px solid #dce4d5;align-items:center}
+.pawday-result-preview h2{font:900 28px/1.2 var(--display);margin:16px 0 12px}.pawday-result-preview p{color:#52665a;line-height:1.65;font-size:16px;max-width:460px}
+.pawday-example-card{background:#fffdf8;border:1px solid #dce4d5;border-radius:22px;padding:26px}.pawday-example-card>span{font-size:12px;color:#52665a}.pawday-example-card h3{font:800 23px/1.3 var(--display);margin:12px 0}.pawday-example-card ul{padding-left:20px;line-height:1.9;font-size:15px}.pawday-example-card small{font-size:12px;color:#52665a}
+@media(max-width:760px){body>header{max-width:540px;padding:14px 20px 0}main#app{padding:0 20px 28px}.playful-home{display:flex;flex-direction:column;gap:26px;max-width:500px;padding-top:18px}.pawday-hero-copy{width:100%;padding:0}.playful-heading{text-align:center;margin:auto}.home-kicker{font-size:12px}.playful-heading h1{font-size:36px;max-width:420px;margin:14px auto 12px;letter-spacing:-.6px}.playful-heading p{font-size:16px;line-height:1.55;margin:auto}.playful-start{max-width:none;margin-top:20px;font-size:21px;min-height:56px}.playful-meta,.playful-family{text-align:center;max-width:none}.playful-meta{margin-top:14px}.pawday-hero-visual{width:100%}.playful-scene{height:230px}.home-pet{height:215px;width:215px;margin-left:-107.5px}.playful-controls{padding:16px}.playful-controls h2{font-size:21px}.pawday-result-preview{grid-template-columns:1fr;gap:20px;max-width:500px;margin-top:36px;padding-top:28px}.pawday-result-preview h2{font-size:26px}.pawday-example-card{padding:22px}}
+@media(max-width:360px){.playful-heading h1{font-size:30px}.playful-controls h2{font-size:19px}.rhythm-heading output{font-size:11px}}
+
+.pawday-example-card{padding:0;overflow:hidden;box-shadow:0 12px 30px #123b3208}
+.pawday-example-top{position:relative;background:#fff;height:220px}.pawday-example-top img{display:block;width:100%;height:100%;object-fit:contain;object-position:center}
+.pawday-example-label{position:absolute;top:14px;left:16px;background:#e8f1df;color:#285e49;border-radius:20px;padding:7px 12px;font-size:12px;font-weight:700}
+.pawday-example-body{padding:22px 24px}.pawday-example-title{display:flex;align-items:center;justify-content:space-between;gap:12px}.pawday-example-title h3{margin:0;font-size:24px}.pawday-example-size{font-size:12px;white-space:nowrap;padding:5px 10px;border:1px solid #dce4d5;border-radius:20px}
+.pawday-example-facts{margin:18px 0}.pawday-example-facts>div{display:grid;grid-template-columns:100px 1fr;gap:14px;padding:9px 0;border-top:1px solid #e4e9dd;font-size:14px;line-height:1.5}.pawday-example-facts dt{color:#52665a}.pawday-example-facts dd{margin:0;font-weight:600}.pawday-example-body small{display:block;line-height:1.6}.pawday-photo-credit{display:inline-block;margin-top:10px;color:#52665a;font-size:11px;text-decoration:underline}
+@media(max-width:760px){.pawday-example-card{padding:0}.pawday-example-body{padding:20px}.pawday-example-title h3{font-size:22px}.pawday-example-facts>div{grid-template-columns:85px 1fr;gap:10px}}
+@media(min-width:761px){.pawday-result-preview{align-items:start}}
+
+.pwa-controls{max-width:1040px;margin:16px auto;padding:16px;text-align:center;color:#123b32}.pwa-controls button{background:#FF7A30;border:0;border-radius:16px;padding:12px 20px;font:inherit;cursor:pointer}.pwa-controls button[hidden]{display:none}.pwa-controls small{display:block}.pwa-controls p{font-size:13px}button:focus-visible{outline:3px solid #123b32;outline-offset:3px}
